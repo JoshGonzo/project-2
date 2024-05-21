@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=dvice-width, initial-scale=1.0">
+    <title>TRAVEL AND SWAG</title>
+
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lato&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body style="background-color: #3E424b;">
+    <!-- navbar -->
+    <nav class="navbar">
+        <ul class="list-container">
+            <li class="list-item"><a href="./home.html" class="list active">Home</a></li>
+            <li class="list-item"><a href="./index.html" class="list">Destinations</a></li>
+            <li class="list-item"><a href="./Login.html" class="list">Login</a></li>
+        </ul>
+        <div class="interaction">
+            <div class="cart-user">
+                <a href="./Account.html" class="list"><img src="user.png" class="icons" alt=""></a>
+            </div>
+        </div>
+    </nav>
+
+    <div></div>
+    <div class="product-box" data-product-name="2019 BMW i3" data-product-id=1>
+        <img src="glacier.jpg" alt="Your Product">
+
+        <h1>Glacier National Park</h1>
+        
+
+        <div class="description">
+            <p>Snow-capped peaks, alpine meadows and azure lakes are just a few reasons why Glacier National Park is one of America's most striking parks. There are more than 700 miles of hiking trails in this Montana crown jewel, plus 13 designated areas for camping. In the winter, travelers can enjoy snowshoeing and skiing, while during the summer vacationers can go swimming in Lake McDonald and whitewater rafting on Flathead River, among other popular activities. For those who'd rather admire their surroundings from their car, a scenic drive along Going-to-the-Sun Road can't be missed.</p>
+        </div>
+
+        <a href="./home.html" class="buy-button" onclick="buyNow()">Inquire about cost and more</a>
+    </div>
+    
+
+    <script src="home.js"></script>
+    <script src="loadNavBar.js"></script>
+    <script src="product.js"></script>
+    <script>
+        loadNavBar();
+    </script>
+</body>
+
+</html>

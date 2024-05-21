@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=dvice-width, initial-scale=1.0">
+    <title>TRAVEL AND SWAG</title>
+
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lato&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar">
+        <ul class="list-container">
+            <li class="list-item"><a href="./home.html" class="list active">Home</a></li>
+            <li class="list-item"><a href="./index.html" class="list">Destinations</a></li>
+            <li class="list-item"><a href="./Login.html" class="list">Login</a></li>
+        </ul>
+        <div class="interaction">
+            <div class="cart-user">
+                <a href="./Account.html" class="list"><img src="user.png" class="icons" alt=""></a>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- header -->
+    <header class="header-section">
+        <h1 class="header-text">HODOPHILES</h1>
+    </header>
+
+    <!-- Car Selection -->
+    <section class="car-selection">
+        <h1 class="selection-title">Top 6 Destinations</h1>
+        <div class="product-container">
+            <a href="./paris.html">
+                <div class="product-card">
+                    <img src="paris.jpg" width="500" class="car-img" alt="">
+                    <p class="car-name">Paris</p>
+                </div>
+            </a>
+            <a href="./bora.html">
+                <div class="product-card">
+                    <img src="bora-bora.jpg" width="500" class="car-img" alt="">
+                    <p class="car-name">Bora Bora</p>
+                </div>
+            </a>
+            <a href="./glacier.html">
+                <div class="product-card">
+                    <img src="glacier.jpg" width="500" class="car-img" alt="">
+                    <p class="car-name">Glacier National Park</p>
+                </div>
+            </a>
+        </div>
+    </section>
+    <section class="car-selection">
+        <div class="product-container">
+            <a href="./rome.html">
+            <div class="product-card">
+                <img src="rome.jpg" width="500" class="car-img" alt="">
+                <p class="car-name">Rome</p>
+            </div>
+            </a>
+            <a href="./alps.html">
+            <div class="product-card">
+                <img src="alps.jpg" width="500" class="car-img" alt="">
+                <p class="car-name">Swiss Alps</p>
+            </div>
+            </a>
+            <a href="./maui.html">
+            <div class="product-card">
+                <img src="Maui-Pictures.jpg" width="500" class="car-img" alt="">
+                <p class="car-name">Maui</p>
+            </div>
+            </a>   
+        </div>
+    </section>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <script src="home.js"></script>
+    <script src="loadNavBar.js"></script>
+    <script>
+        loadNavBar();
+        updateNavBar();
+    </script>
+    
+</body>
+
+
+
+</html>

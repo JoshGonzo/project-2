@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type = "text/css" href="account.css">
+  <link rel="stylesheet" href="navbar.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lato&display=swap" rel="stylesheet">
+  <title>Account Preferences Page</title>
+
+  
+
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <ul class="list-container">
+          <li class="list-item"><a href="./home.html" class="list active">Home</a></li>
+          <li class="list-item"><a href="./index.html" class="list">Destinations</a></li>
+          <li class="list-item"><a href="./Login.html" class="list">Login</a></li>
+      </ul>
+      <div class="interaction">
+          <div class="cart-user">
+              
+              <a href="./Account.html" class="list"><img src="user.png" class="icons" alt=""></a>
+          </div>
+      </div>
+  </nav>
+    <br> <br/>
+    <br> <br/>
+    <br> <br/>
+  
+  <div class="account-section">
+    <h2>Account Information</h2>
+    <form id="accountForm">
+        <label for="newPassword">New Password:</label>
+        <input type="password" id="newPassword" name="newPassword" required><br />
+
+        <label for="confirmPassord">Confirm New Password:</label>
+        <input type="password" id="confirmPassord" name="confirmPassord" required>
+
+        <button type="submit">Change Password</button>
+    </form>
+</div>
+
+<div class="address-section">
+    <h2>Address Book</h2>
+    <form id="addressForm">
+
+      <label for="street">Street</label> <br />
+      <input type="text" name="street" id="street"> <br />
+      <label for="city">City</label> <br />
+      <input type="text" name="city" id="city"> <br />
+
+      <label for="state">State</label> <br />             
+          <select name="state" id="state">
+          <option value="alabam">Alabama</option>
+          <option value="alaska">Alaska</option>
+          <option value="arizona">Arizona</option>
+          <option value="arkansas">Arkansas</option>
+          <option value="california">California</option>
+          <option value="colorado">Colorado</option>
+          <option value="connecticut">Connecticut</option>
+          <option value="delaware">Delaware</option>
+          <option value="florida">Florida</option>
+          <option value="georgia">Georgia</option>
+          <option value="hawaii">Hawaii</option>
+          <option value="idaho">Idaho</option>
+          <option value="illinois">Illinois</option>                    
+          <option value="iowa">Iowa</option>                    
+          <option value="kansas">Kansas</option>                    
+          <option value="kentucky">Kentucky</option>                   
+          <option value="louisiana">Louisiana</option>                   
+          <option value="maine">Maine</option>                  
+          <option value="maryland">Maryland</option>                   
+          <option value="massachusetts">Massachusetts</option>                   
+          <option value="michigan">Michigan</option>                   
+          <option value="minnesota">Minnesota</option>                    
+          <option value="mississippi">Mississippi</option>                    
+          <option value="missouri">Missouri</option>                   
+          <option value="montana">Montana</option>                   
+          <option value="nebraska">Nebraska</option>                   
+          <option value="nevada">Nevada</option>                   
+          <option value="newhampshire">New Hampshire</option>                   
+          <option value="newjersey">New Jersey</option>
+          <option value="newmexico">New Mexico</option>
+          <option value="newyork">New York</option>
+          <option value="north carolina">North Carolina</option>
+          <option value="northdakota">North Dakota</option>
+          <option value="ohio">Ohio</option>
+          <option value="oklahoma">Oklahoma</option>
+          <option value="Oregon">Oregon</option>
+          <option value="pennsylvania">Pennsylvania</option>
+          <option value="alaska">Alaska</option>
+          <option value="arizona">Arizona</option>
+          <option value="arkansas">Arkansas</option>
+          <option value="california">California</option>
+          <option value="colorado">Colorado</option>
+          <option value="rhodeisland">Rhode Island</option>
+          <option value="southcarolina">South Carolina</option>
+          <option value="southdakota">South Dakota</option>
+          <option value="Tennessee">Tennessee</option>
+          <option value="texas">Texas</option>
+          <option value="utah">Utah</option>
+          <option value="vermont">Vermont</option>
+          <option value="virginia">Virginia</option>
+          <option value="washington">Washington</option>
+          <option value="westvirgian">West Virginia</option>
+          <option value="wisconsin">Wisconsin</option>
+          <option value="wyoming">Wyoming</option>
+          </select><br />
+
+          <label for="zipcode">ZipCode</label> <br />
+          <input type="text" name="zipcode" id="zipcode"> <br />
+
+      <button type="submit">Update Addresses</button>
+    </form>
+</div>
+
+<div class="payment-section">
+    <h2>Payment Methods</h2>
+    <form id="paymentForm">
+      <label for="cardNumber">Card Number</label><br />
+      <input type="text" name="cardNumber"><br />
+
+      <label for="nameOnCard">Name On Card</label><br />
+      <input type="text" name="nameOnCard" id=""><br />
+
+      <label for="expdate">Expiration Date</label><br />
+      <input type="date" name="expdate"><br />
+
+      <button type="submit">Update Payment Methods</button>
+    </form>
+</div>
+
+<script src="loadNavBar.js"></script>
+<script src="account.js"></script>
+<script>
+  loadNavBar();
+</script>
+</body>
+</html>

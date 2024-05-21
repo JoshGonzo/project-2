@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=dvice-width, initial-scale=1.0">
+    <title>TRAVEL AND SWAG</title>
+
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lato&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body style="background-color: #3E424b;">
+    <!-- navbar -->
+    <nav class="navbar">
+        <ul class="list-container">
+            <li class="list-item"><a href="./home.html" class="list active">Home</a></li>
+            <li class="list-item"><a href="./index.html" class="list">Destinations</a></li>
+            <li class="list-item"><a href="./Login.html" class="list">Login</a></li>
+        </ul>
+        <div class="interaction">
+            <div class="cart-user">
+                <a href="./Account.html" class="list"><img src="user.png" class="icons" alt=""></a>
+            </div>
+        </div>
+    </nav>
+
+    <div></div>
+    <div class="product-box" data-product-name="2019 BMW i3" data-product-id=1>
+        <img src="rome.jpg" alt="Your Product">
+
+        <h1>Rome, Italy</h1>
+        
+
+        <div class="description">
+            <p>When you visit Italy's capital city, prepare to cross a few must-see landmarks – including the Colosseum, the Trevi Fountain and the Pantheon – off of your bucket list. Travelers can also see some of Italy's greatest treasures, including St. Peter's Basilica and the Sistine Chapel, in Vatican City. Escape the tourist crowds by taking a twilight stroll along the cobblestone streets of Trastevere, or head to Mercato Centrale Roma to sample local delicacies like pistachio gelato. Before leaving, peruse some of Rome's lesser-known museums, art galleries and boutiques, or head to Janiculum Hill for panoramic views of the city.</p>
+        </div>
+
+        <a href="./home.html" class="buy-button" onclick="buyNow()">Inquire about cost and more</a>
+    </div>
+    
+
+    <script src="home.js"></script>
+    <script src="loadNavBar.js"></script>
+    <script src="product.js"></script>
+    <script>
+        loadNavBar();
+    </script>
+</body>
+
+</html>

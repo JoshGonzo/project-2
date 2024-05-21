@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=dvice-width, initial-scale=1.0">
+    <title>TRAVEL AND SWAG</title>
+
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lato&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body style="background-color: #3E424b;">
+    <!-- navbar -->
+    <nav class="navbar">
+        <ul class="list-container">
+            <li class="list-item"><a href="./home.html" class="list active">Home</a></li>
+            <li class="list-item"><a href="./index.html" class="list">Destinations</a></li>
+            <li class="list-item"><a href="./Login.html" class="list">Login</a></li>
+        </ul>
+        <div class="interaction">
+            <div class="cart-user">
+                <a href="./Account.html" class="list"><img src="user.png" class="icons" alt=""></a>
+            </div>
+        </div>
+    </nav>
+
+    <div></div>
+    <div class="product-box" data-product-name="2019 BMW i3" data-product-id=1>
+        <img src="alps.jpg" alt="Your Product">
+
+        <h1>Swiss Alps</h1>
+        
+
+        <div class="description">
+            <p>Snow-covered mountains, charming towns and flower-strewn meadows make the Swiss Alps a year-round fairy tale destination. Visit in the winter for world-class skiing (and après-ski fondue and drinks) in locales such as the exclusive St. Moritz and the picturesque Zermatt, home of the craggy Matterhorn. Opt for warmer months to hike through the verdant valleys of Swiss National Park or attend lively festivals in the foothill city of Montreux. Regardless of the time of year, no trip would be complete without a visit to the Jungfrau Region, where you can experience idyllic mountain villages like Grindelwald and Mürren or take the Jungfrau Railway to Europe's highest railway station.</p>
+        </div>
+
+        <a href="./home.html" class="buy-button" onclick="buyNow()">Inquire about cost and more</a>
+    </div>
+    
+
+    <script src="home.js"></script>
+    <script src="loadNavBar.js"></script>
+    <script src="product.js"></script>
+    <script>
+        loadNavBar();
+    </script>
+</body>
+
+</html>

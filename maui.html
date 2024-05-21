@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=dvice-width, initial-scale=1.0">
+    <title>TRAVEL AND SWAG</title>
+
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lato&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body style="background-color: #3E424b;">
+    <!-- navbar -->
+    <nav class="navbar">
+        <ul class="list-container">
+            <li class="list-item"><a href="./home.html" class="list active">Home</a></li>
+            <li class="list-item"><a href="./index.html" class="list">Destinations</a></li>
+            <li class="list-item"><a href="./Login.html" class="list">Login</a></li>
+        </ul>
+        <div class="interaction">
+            <div class="cart-user">
+                <a href="./Account.html" class="list"><img src="user.png" class="icons" alt=""></a>
+            </div>
+        </div>
+    </nav>
+
+    <div></div>
+    <div class="product-box" data-product-name="2019 BMW i3" data-product-id=1>
+        <img src="Maui-Pictures.jpg" alt="Your Product">
+
+        <h1>Maui, Hawaii</h1>
+        
+
+        <div class="description">
+            <p>Whether you're driving along the Road to Hana, enjoying a bird's-eye view of Maui's lush coastline from a helicopter, snorkeling with sea turtles or simply relaxing on white or black sand beaches, you'll find that this Hawaiian island is unlike any other tropical destination. Don't miss a chance to visit Haleakala National Park, which is home to one of the world's largest dormant volcanic craters and boasts surreal sunrises. You should also attend a traditional luau for a dose of local culture and a taste of Hawaiian specialties like poi, poke and i'a fish</p>
+        </div>
+
+        <a href="./home.html" class="buy-button" onclick="buyNow()">Inquire about cost and more</a>
+    </div>
+    
+
+    <script src="home.js"></script>
+    <script src="loadNavBar.js"></script>
+    <script src="product.js"></script>
+    <script>
+        loadNavBar();
+    </script>
+</body>
+
+</html>

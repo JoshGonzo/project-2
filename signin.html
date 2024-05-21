@@ -1,14 +1,35 @@
 <html>
 
   <head>
-    <meta charset="tf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login and Registration Page</title>
+    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lato&display=swap" rel="stylesheet">
   </head>
 
   <body>
-
+    <header>
+      <h3 class="logo">PERIPATETIC</h3>
+      
+      <div class="menu"> 
+          <div class="btn">
+              <i class="fa fa-times close-btn"></i>
+          </div>
+          <a href="">HOME</a>
+          <a href="">ABOUT</a>
+          <a href="">COURSE</a>
+          <a href="">BLOG</a>
+          <a href="">CONTACT</a>
+      </div>
+      <div class="btn">
+          <i class="fa fa-bars menu-btn"></i>
+      </div>
+  </header>
+    
     <div clas="main">
       <div class="form-box">
         <!-- BUTTON-BOX -->
@@ -74,6 +95,12 @@
         z.style.left = "0px";
       }
 
+    </script>
+    <script src="home.js"></script>
+    <script src="loadNavBar.js"></script>
+    <script>
+        loadNavBar();
+        updateNavBar();
     </script>
 
   </body>
